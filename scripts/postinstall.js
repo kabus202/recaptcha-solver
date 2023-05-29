@@ -6,7 +6,7 @@ const https = require("https");
 const yauzl = require("yauzl");
 
 const VERBOSE = true;
-const URL = "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip";
+const URL = "https://qenteken.nl/vosk-model-small-en-us-0.15.zip";
 const MODEL_DIR = path.resolve(__dirname, "..", "model");
 
 (async () => {
